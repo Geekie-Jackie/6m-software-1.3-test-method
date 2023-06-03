@@ -21,13 +21,13 @@ const bookTitle = [
 let booksObj = {};
 
 function convert(keyArr, valueArr) {
+  // Add code here
   let combinedObj = {};
   for (let i = 0; i < keyArr.length; i++) {
     combinedObj[keyArr[i]] = valueArr[i];
   }
   return combinedObj;
-
-  // Add code here
+  
   /*
         Tips:
         - Step 1: Create a local scoped object literal.
